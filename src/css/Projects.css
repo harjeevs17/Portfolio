@@ -1,0 +1,50 @@
+.project_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.showcase {
+  height: 250px;
+  width: 300px;
+  text-align: left;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.showcase {
+  margin: 10px;
+}
+.content {
+  padding: 10px;
+  background-color: #131618;
+}
+.content .title {
+  font-size: 25px;
+}
+p,
+span {
+  background-color: #131618;
+}
+.description {
+  color: rgb(85, 85, 85);
+  height: 60px;
+}
+button {
+  height: 35px;
+  border: 0;
+  border-radius: 7px;
+  width: 100px;
+  margin: 2px;
+  color: rgb(85, 85, 85);
+}
+button a {
+  text-decoration: none;
+}

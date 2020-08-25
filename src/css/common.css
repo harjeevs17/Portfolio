@@ -1,0 +1,25 @@
+.main,
+.contactContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+  background-color: transparent;
+}
+.section_title {
+  font-family: "Oswald", sans-serif;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.socialIcons {
+  margin: 20px;
+}
+.socialIcons :hover {
+  cursor: pointer;
+}
