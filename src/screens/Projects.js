@@ -80,7 +80,12 @@ const Projects = () => {
         </div>
         <div className="projects">
           <div className="showcase">
-            <div className="content">
+            <motion.div
+              whileHover={hover}
+              initial={{ x: 0 }}
+              whileTap={{ scale: 0.9 }}
+              className="content"
+            >
               <p className="title">Instagram</p>
               <p className="description">
                 A simple Instagram clone built using the MERN stack.
@@ -102,7 +107,7 @@ const Projects = () => {
                   View Site
                 </a>
               </button>
-            </div>
+            </motion.div>
           </div>
           <div className="showcase">
             <motion.div
